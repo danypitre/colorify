@@ -252,6 +252,8 @@ if (loaded == allColors.length()) {
   function sendFile() { 
       setLoading(true)
 
+      console.log("fetched")
+
 
 
 
