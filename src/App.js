@@ -257,7 +257,7 @@ if (loaded == allColors.length()) {
 
       let jsonFile = JSON.stringify(b64Code)
 
-      fetch(`${localHost}/img`, { 
+      fetch(`https://colors-api-flask.herokuapp.com/img`, { 
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: jsonFile
